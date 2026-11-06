@@ -1,0 +1,242 @@
+{
+  "accuracy": 0.3,
+  "macro_f1": 0.17857142857142855,
+  "per_class": [
+    {
+      "class": "synthetic_0",
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "support": 2
+    },
+    {
+      "class": "synthetic_1",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2
+    },
+    {
+      "class": "synthetic_2",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2
+    },
+    {
+      "class": "synthetic_3",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2
+    },
+    {
+      "class": "synthetic_4",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2
+    },
+    {
+      "class": "synthetic_5",
+      "precision": 0.16666666666666666,
+      "recall": 1.0,
+      "f1": 0.2857142857142857,
+      "support": 2
+    },
+    {
+      "class": "synthetic_6",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2
+    },
+    {
+      "class": "synthetic_7",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    {
+      "class": "synthetic_8",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2
+    },
+    {
+      "class": "synthetic_9",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2
+    }
+  ],
+  "confusion_matrix": [
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "n": 20,
+  "test_loss": 2.2670183181762695,
+  "test_fold": 3,
+  "val_fold": 4,
+  "train_folds": [
+    1,
+    2,
+    5
+  ],
+  "train_n": 60,
+  "val_n": 20,
+  "test_n": 20,
+  "best_epoch": 2,
+  "epochs_run": 2,
+  "best_val_loss": 2.267151641845703,
+  "num_parameters": 9850,
+  "dataset_kind": "SYNTHETIC_SMOKE_NOT_ESC10",
+  "class_names": [
+    "synthetic_0",
+    "synthetic_1",
+    "synthetic_2",
+    "synthetic_3",
+    "synthetic_4",
+    "synthetic_5",
+    "synthetic_6",
+    "synthetic_7",
+    "synthetic_8",
+    "synthetic_9"
+  ],
+  "training_config": {
+    "seed": 45,
+    "epochs_max": 2,
+    "batch": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "patience": 2,
+    "min_delta": 0.0001,
+    "augmentation": false,
+    "gradient_clip_norm": 0.0,
+    "lr_scheduler_patience": 4,
+    "lr_scheduler_factor": 0.5,
+    "device": "cpu",
+    "deterministic_requested": true
+  }
+}

@@ -1,0 +1,12 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+data/
+results/
+results_*/
+evaluation/
+infer/
+error_analysis/
+examples/esc10/
+.DS_Store
